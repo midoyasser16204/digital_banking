@@ -1,0 +1,186 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Blog - Digitalbank</title>
+    <link rel="icon" type="image/png" sizes="32x32" href="../../assets/images/favicon-32x32.png" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" />
+    <link rel="stylesheet" href="../../assets/general/general.css" />
+    <link rel="stylesheet" href="blog.css" />
+</head>
+
+<body>
+    <header>
+        <div class="logo"><img src="../../assets/icons/logo-dark.svg" alt="Digitalbank Logo" /></div>
+        <button class="menu-toggle" onclick="toggleMenu()">
+            <i class="fas fa-bars"></i>
+        </button>
+        <nav id="navbar">
+            <ul>
+                <li><a> Home</a></li>
+                <li><a>About</a></li>
+                <li><a >Contact</a></li>
+                <li><a >Blog</a></li>
+                <li><a >Careers</a></li>
+            </ul>
+        </nav>
+        <a class="btn-invite navbtn">Request Invite</a>
+    </header>
+
+    <section class="hero">
+        <div class="hero-text">
+            <h1>Our Blog</h1>
+            <p>
+                Stay updated with the latest news, tips, and insights about digital banking and financial technology.
+            </p>
+        </div>
+
+        <div class="hero-images">
+            <img src="../../assets/bg-intro-desktop.svg" alt="Background desktop" class="bg-desktop" />
+            <img src="../../assets/bg-intro-mobile.svg" alt="Background mobile" class="bg-mobile" />
+            <img src="../../assets/images/image-mockups.png" alt="Phone mockups" class="phones" />
+        </div>
+    </section>
+
+    <section class="blog-content">
+        <h2>Featured Articles</h2>
+        <div class="blog-grid">
+            <article class="blog-article">
+                <div class="blog-image">
+                    <img src="../../assets/images/image-currency.jpg" alt="Currency" />
+                </div>
+                <div class="blog-text">
+                    <div class="blog-meta">
+                        <span class="author"><i class="fas fa-user"></i> Claire Robinson</span>
+                        <span class="date"><i class="fas fa-calendar"></i> March 15, 2024</span>
+                    </div>
+                    <h3>Receive money in any currency with no fees</h3>
+                    <p>
+                        The world is getting smaller and we're becoming more mobile. So why should you be forced to only
+                        receive money in a single currency? With Digitalbank, you can receive money in any currency with
+                        no hidden fees. Our competitive exchange rates and transparent pricing mean you always know
+                        exactly what you're getting. Whether you're a freelancer working with international clients or
+                        receiving money from family abroad, we make it simple and affordable.
+                    </p>
+                    <a href="#" class="read-more">Read More <i class="fas fa-arrow-right"></i></a>
+                </div>
+            </article>
+
+            <article class="blog-article">
+                <div class="blog-image">
+                    <img src="../../assets/images/image-restaurant.jpg" alt="Restaurant" />
+                </div>
+                <div class="blog-text">
+                    <div class="blog-meta">
+                        <span class="author"><i class="fas fa-user"></i> Wilson Hutton</span>
+                        <span class="date"><i class="fas fa-calendar"></i> March 10, 2024</span>
+                    </div>
+                    <h3>Treat yourself without worrying about money</h3>
+                    <p>
+                        Our simple budgeting feature allows you to separate out your spending and set realistic limits
+                        each month. That means you can enjoy life's pleasures without the stress of overspending. Set up
+                        custom categories for dining, entertainment, shopping, and more. Get real-time notifications
+                        when you're approaching your limits. Our intelligent insights help you understand your spending
+                        patterns and make smarter financial decisions.
+                    </p>
+                    <a href="#" class="read-more">Read More <i class="fas fa-arrow-right"></i></a>
+                </div>
+            </article>
+
+            <article class="blog-article">
+                <div class="blog-image">
+                    <img src="../../assets/images/image-plane.jpg" alt="Plane" />
+                </div>
+                <div class="blog-text">
+                    <div class="blog-meta">
+                        <span class="author"><i class="fas fa-user"></i> Wilson Hutton</span>
+                        <span class="date"><i class="fas fa-calendar"></i> March 5, 2024</span>
+                    </div>
+                    <h3>Take your Digitalbank card wherever you go</h3>
+                    <p>
+                        We want you to enjoy your travels. That's why we don't charge any fees on purchases while you're
+                        abroad. Whether you're exploring a new city or relaxing on a beach, your Digitalbank card works
+                        seamlessly around the world. Enjoy competitive exchange rates, instant spending notifications,
+                        and the peace of mind that comes with our advanced fraud protection. Travel with confidence
+                        knowing your money is always accessible and secure.
+                    </p>
+                    <a href="#" class="read-more">Read More <i class="fas fa-arrow-right"></i></a>
+                </div>
+            </article>
+        </div>
+    </section>
+
+    <section class="blog-sidebar-section">
+        <div class="blog-sidebar-container">
+            <div class="recent-posts">
+                <h3>Recent Posts</h3>
+                <div class="recent-post-item">
+                    <img src="../../assets/images/image-confetti.jpg" alt="Confetti" />
+                    <div>
+                        <h4>Our invite-only Beta accounts are now live!</h4>
+                        <p class="post-date">February 28, 2024</p>
+                    </div>
+                </div>
+                <div class="recent-post-item">
+                    <img src="../../assets/images/image-currency.jpg" alt="Currency" />
+                    <div>
+                        <h4>Understanding cryptocurrency integration</h4>
+                        <p class="post-date">February 20, 2024</p>
+                    </div>
+                </div>
+                <div class="recent-post-item">
+                    <img src="../../assets/images/image-restaurant.jpg" alt="Restaurant" />
+                    <div>
+                        <h4>5 tips for better money management</h4>
+                        <p class="post-date">February 15, 2024</p>
+                    </div>
+                </div>
+            </div>
+
+            <div class="blog-cta">
+                <h3>Join Digitalbank Today</h3>
+                <p>Experience the future of banking with our innovative digital platform.</p>
+                <a class="btn-invite">Get Started</a>
+            </div>
+        </div>
+    </section>
+
+    <footer>
+        <div class="footer-grid">
+            <div class="footer-left">
+                <div class="logo">
+                    <img src="../../assets/icons/logo-light.svg" alt="Logo" />
+                </div>
+                <div class="social">
+                    <i class="fab fa-facebook-f"></i>
+                    <i class="fab fa-youtube"></i>
+                    <i class="fab fa-twitter"></i>
+                    <i class="fab fa-pinterest"></i>
+                    <i class="fab fa-instagram"></i>
+                </div>
+            </div>
+
+            <div class="footer-links">
+                <ul>
+                    <li><a>About Us</a></li>
+                    <li><a >Contact</a></li>
+                    <li><a >Blog</a></li>
+                </ul>
+                <ul>
+                    <li><a >Careers</a></li>
+                    <li><a href="#">Support</a></li>
+                    <li><a href="#">Privacy Policy</a></li>
+                </ul>
+            </div>
+
+            <div class="footer-right">
+                <a class="btn-invite footerbtn">Request Invite</a>
+                <p class="copyright">© Digitalbank. All Rights Reserved</p>
+            </div>
+        </div>
+    </footer>
+</body>
+
+</html>
