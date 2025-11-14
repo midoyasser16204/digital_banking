@@ -1,0 +1,212 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Careers - Digitalbank</title>
+    <link rel="icon" type="image/png" sizes="32x32" href="../../assets/images/favicon-32x32.png" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" />
+    <link rel="stylesheet" href="../../assets/general/general.css" />
+    <link rel="stylesheet" href="careers.css" />
+</head>
+
+<body>
+    <header>
+        <div class="logo"><img src="../../assets/icons/logo-dark.svg" alt="Digitalbank Logo" /></div>
+        <button class="menu-toggle" onclick="toggleMenu()">
+            <i class="fas fa-bars"></i>
+        </button>
+        <nav id="navbar">
+            <ul>
+                <li><a>Home</a></li>
+                <li><a >About</a></li>
+                <li><a >Contact</a></li>
+                <li><a >Blog</a></li>
+                <li><a >Careers</a></li>
+            </ul>
+        </nav>
+        <a class="btn-invite navbtn">Request Invite</a>
+    </header>
+
+    <section class="hero">
+        <div class="hero-text">
+            <h1>Join Our Team</h1>
+            <p>
+                Build the future of digital banking with us. We're looking for talented individuals who are passionate
+                about innovation and customer experience.
+            </p>
+        </div>
+
+        <div class="hero-images">
+            <img src="../../assets/bg-intro-desktop.svg" alt="Background desktop" class="bg-desktop" />
+            <img src="../../assets/bg-intro-mobile.svg" alt="Background mobile" class="bg-mobile" />
+            <img src="../../assets/images/image-mockups.png" alt="Phone mockups" class="phones" />
+        </div>
+    </section>
+
+    <section class="careers-intro">
+        <div class="careers-intro-content">
+            <h2>Why Work at Digitalbank?</h2>
+            <p>
+                At Digitalbank, we believe in creating an environment where innovation thrives and talent flourishes.
+                Join a team of passionate professionals who are reshaping the future of financial services.
+            </p>
+            <div class="benefits-grid">
+                <div class="benefit-item">
+                    <i class="fas fa-briefcase"></i>
+                    <h3>Career Growth</h3>
+                    <p>Continuous learning and development opportunities</p>
+                </div>
+                <div class="benefit-item">
+                    <i class="fas fa-heart"></i>
+                    <h3>Health & Wellness</h3>
+                    <p>Comprehensive health insurance and wellness programs</p>
+                </div>
+                <div class="benefit-item">
+                    <i class="fas fa-laptop-house"></i>
+                    <h3>Flexible Work</h3>
+                    <p>Remote-friendly with flexible working hours</p>
+                </div>
+                <div class="benefit-item">
+                    <i class="fas fa-users"></i>
+                    <h3>Great Team</h3>
+                    <p>Collaborative culture with diverse perspectives</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="careers-positions">
+        <h2>Open Positions</h2>
+        <div class="positions-grid">
+            <div class="position-card">
+                <div class="position-header">
+                    <div class="position-icon">
+                        <i class="fas fa-code"></i>
+                    </div>
+                    <div class="position-info">
+                        <h3>Senior Full Stack Developer</h3>
+                        <div class="position-meta">
+                            <span><i class="fas fa-map-marker-alt"></i> Remote / San Francisco, CA</span>
+                            <span><i class="fas fa-clock"></i> Full-time</span>
+                        </div>
+                    </div>
+                </div>
+                <p class="position-description">
+                    We're seeking an experienced Full Stack Developer to help build and scale our digital banking
+                    platform. You'll work with cutting-edge technologies including React, Node.js, and cloud
+                    infrastructure to create seamless user experiences.
+                </p>
+                <div class="position-tags">
+                    <span class="tag">React</span>
+                    <span class="tag">Node.js</span>
+                    <span class="tag">TypeScript</span>
+                    <span class="tag">AWS</span>
+                </div>
+                <button class="btn-invite apply-btn" onclick="applyForJob('Senior Full Stack Developer')">Apply
+                    Now</button>
+            </div>
+
+            <div class="position-card">
+                <div class="position-header">
+                    <div class="position-icon">
+                        <i class="fas fa-shield-alt"></i>
+                    </div>
+                    <div class="position-info">
+                        <h3>Cybersecurity Analyst</h3>
+                        <div class="position-meta">
+                            <span><i class="fas fa-map-marker-alt"></i> New York, NY</span>
+                            <span><i class="fas fa-clock"></i> Full-time</span>
+                        </div>
+                    </div>
+                </div>
+                <p class="position-description">
+                    Join our security team to protect our customers' financial data and maintain the highest standards
+                    of security. You'll monitor threats, conduct security audits, and implement best practices to ensure
+                    our platform remains secure.
+                </p>
+                <div class="position-tags">
+                    <span class="tag">Security</span>
+                    <span class="tag">Compliance</span>
+                    <span class="tag">Penetration Testing</span>
+                    <span class="tag">SIEM</span>
+                </div>
+                <button class="btn-invite apply-btn" onclick="applyForJob('Cybersecurity Analyst')">Apply Now</button>
+            </div>
+
+            <div class="position-card">
+                <div class="position-header">
+                    <div class="position-icon">
+                        <i class="fas fa-paint-brush"></i>
+                    </div>
+                    <div class="position-info">
+                        <h3>UX/UI Designer</h3>
+                        <div class="position-meta">
+                            <span><i class="fas fa-map-marker-alt"></i> Remote / London, UK</span>
+                            <span><i class="fas fa-clock"></i> Full-time</span>
+                        </div>
+                    </div>
+                </div>
+                <p class="position-description">
+                    We're looking for a creative UX/UI Designer to craft intuitive and beautiful user experiences.
+                    You'll collaborate with product managers and developers to design features that delight our
+                    customers and make banking simple.
+                </p>
+                <div class="position-tags">
+                    <span class="tag">Figma</span>
+                    <span class="tag">User Research</span>
+                    <span class="tag">Prototyping</span>
+                    <span class="tag">Design Systems</span>
+                </div>
+                <button class="btn-invite apply-btn" onclick="applyForJob('UX/UI Designer')">Apply Now</button>
+            </div>
+        </div>
+    </section>
+
+    <section class="careers-cta">
+        <div class="cta-content">
+            <h2>Don't see the right position?</h2>
+            <p>We're always looking for talented individuals to join our team. Send us your resume and let us know how
+                you can contribute to Digitalbank's mission.</p>
+            <a class="btn-invite">Get In Touch</a>
+        </div>
+    </section>
+
+    <footer>
+        <div class="footer-grid">
+            <div class="footer-left">
+                <div class="logo">
+                    <img src="../../assets/icons/logo-light.svg" alt="Logo" />
+                </div>
+                <div class="social">
+                    <i class="fab fa-facebook-f"></i>
+                    <i class="fab fa-youtube"></i>
+                    <i class="fab fa-twitter"></i>
+                    <i class="fab fa-pinterest"></i>
+                    <i class="fab fa-instagram"></i>
+                </div>
+            </div>
+
+            <div class="footer-links">
+                <ul>
+                    <li><a href="../about/about.html">About Us</a></li>
+                    <li><a href="../contact/contact.html">Contact</a></li>
+                    <li><a href="../blog/blog.html">Blog</a></li>
+                </ul>
+                <ul>
+                    <li><a href="../careers/careers.html">Careers</a></li>
+                    <li><a href="#">Support</a></li>
+                    <li><a href="#">Privacy Policy</a></li>
+                </ul>
+            </div>
+
+            <div class="footer-right">
+                <a class="btn-invite footerbtn">Request Invite</a>
+                <p class="copyright">© Digitalbank. All Rights Reserved</p>
+            </div>
+        </div>
+    </footer>
+</body>
+
+</html>

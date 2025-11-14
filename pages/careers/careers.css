@@ -1,0 +1,185 @@
+.careers-intro {
+    padding: 4rem 2rem;
+    background-color: #f4f4f4;
+    overflow: hidden;
+    max-width: 100%;
+}
+
+.careers-intro-content {
+    max-width: 1200px;
+    margin: 0 auto;
+    text-align: center;
+}
+
+.careers-intro h2 {
+    font-size: 2rem;
+    margin-bottom: 1rem;
+    color: hsl(233, 26%, 24%);
+}
+
+.careers-intro>p {
+    max-width: 700px;
+    margin: 0 auto 3rem;
+    color: hsl(233, 8%, 62%);
+    font-size: 1.1rem;
+    line-height: 1.7;
+}
+
+.benefits-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+    gap: 2rem;
+    margin-top: 2rem;
+}
+
+.benefit-item {
+    padding: 1.5rem;
+    text-align: center;
+}
+
+.benefit-item i {
+    font-size: 2.5rem;
+    color: #31d35c;
+    margin-bottom: 1rem;
+}
+
+.benefit-item h3 {
+    font-size: 1.1rem;
+    margin-bottom: 0.5rem;
+    color: hsl(233, 26%, 24%);
+}
+
+.benefit-item p {
+    color: hsl(233, 8%, 62%);
+    font-size: 0.9rem;
+}
+
+.careers-positions {
+    padding: 4rem 2rem;
+    max-width: 1200px;
+    margin: 0 auto;
+    overflow: hidden;
+}
+
+.careers-positions h2 {
+    font-size: 2rem;
+    margin-bottom: 3rem;
+    text-align: center;
+    color: hsl(233, 26%, 24%);
+}
+
+.positions-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+    gap: 2rem;
+}
+
+.position-card {
+    background: #fff;
+    padding: 2rem;
+    border-radius: 10px;
+    box-shadow: 0 5px 15px rgba(0, 0, 0, 0.1);
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.position-card:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 10px 25px rgba(0, 0, 0, 0.15);
+}
+
+.position-header {
+    display: flex;
+    gap: 1rem;
+    margin-bottom: 1.5rem;
+}
+
+.position-icon {
+    width: 60px;
+    height: 60px;
+    background: linear-gradient(135deg, #31d35c, #2bb7da);
+    border-radius: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-shrink: 0;
+}
+
+.position-icon i {
+    font-size: 1.8rem;
+    color: #fff;
+}
+
+.position-info h3 {
+    font-size: 1.3rem;
+    margin-bottom: 0.5rem;
+    color: hsl(233, 26%, 24%);
+}
+
+.position-meta {
+    display: flex;
+    flex-direction: column;
+    gap: 0.3rem;
+    font-size: 0.85rem;
+    color: #999;
+}
+
+.position-meta i {
+    margin-right: 0.3rem;
+}
+
+.position-description {
+    color: hsl(233, 8%, 62%);
+    line-height: 1.7;
+    margin-bottom: 1.5rem;
+}
+
+.position-tags {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 0.5rem;
+    margin-bottom: 1.5rem;
+}
+
+.tag {
+    background: #f0f0f0;
+    padding: 0.3rem 0.8rem;
+    border-radius: 15px;
+    font-size: 0.85rem;
+    color: #666;
+}
+
+.apply-btn {
+    width: 100%;
+    padding: 0.8rem;
+    text-align: center;
+}
+
+.careers-cta {
+    padding: 4rem 2rem;
+    background: linear-gradient(135deg, #31d35c, #2bb7da);
+    text-align: center;
+    overflow: hidden;
+    max-width: 100%;
+}
+
+.cta-content {
+    max-width: 800px;
+    margin: 0 auto;
+    color: #fff;
+}
+
+.cta-content h2 {
+    font-size: 2rem;
+    margin-bottom: 1rem;
+}
+
+.cta-content p {
+    font-size: 1.1rem;
+    margin-bottom: 2rem;
+    opacity: 0.9;
+}
+
+.cta-content .btn-invite {
+    background: #fff;
+    color: #31d35c;
+}
